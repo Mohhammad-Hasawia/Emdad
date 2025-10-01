@@ -1,6 +1,6 @@
 
 import { useLanguage } from '@/hooks/useLanguage';
-import { Shield, Wrench, Cpu, AlertTriangle, CheckCircle } from 'lucide-react';
+import { Shield, Wrench, Cpu, TriangleAlert as AlertTriangle, CircleCheck as CheckCircle } from 'lucide-react';
 
 export function QualitySafety() {
   const { t } = useLanguage();

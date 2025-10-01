@@ -2,13 +2,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Card, CardContent } from '@/components/ui/card';
 import { useLanguage } from '@/hooks/useLanguage';
-import { 
-  Leaf, 
-  CheckCircle,
-  Globe,
-  Heart,
-  Scale
-} from 'lucide-react';
+import { Leaf, CircleCheck as CheckCircle, Globe, Heart, Scale } from 'lucide-react';
 import { Breadcrumb } from '@/components/Breadcrumb';
 
 export default function Sustainability() {
