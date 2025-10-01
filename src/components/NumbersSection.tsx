@@ -9,24 +9,24 @@ export function NumbersSection() {
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in-up text-center lg:text-left">
-              <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-navy mb-6 md:mb-8 arabic-text leading-tight">
+              <h2 className="heading-section font-bold text-emdad-navy mb-6 md:mb-8 arabic-text leading-tight">
                 {t("numbers.title")}
               </h2>
 
-              <p className="text-lg sm:text-xl md:text-xl text-gray-700 leading-relaxed arabic-text">
+              <p className="body-paragraph text-gray-700 leading-relaxed arabic-text">
                 {t("numbers.description")}
               </p>
 
               {/* Stats Grid */}
               <div className="grid grid-cols-2 gap-6 mt-8">
                 <div className="text-center p-3 md:p-4 bg-white rounded-lg shadow-md">
-                  <div className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-gold mb-2">
+                  <div className="heading-card font-bold text-emdad-gold mb-2">
                     800,000
                   </div>
                   <div className="text-sm text-gray-500">Kilometers Covered</div>
                 </div>
                 <div className="text-center p-4 bg-white rounded-lg shadow-md">
-                  <div className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-gold mb-2">
+                  <div className="heading-card font-bold text-emdad-gold mb-2">
                     218,000
                   </div>
                   <div className="text-sm text-gray-500">m³ Transported</div>

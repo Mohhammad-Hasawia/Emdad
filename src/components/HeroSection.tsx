@@ -24,7 +24,7 @@ export function HeroSection() {
       {/* Hero Content */}
       <div className="relative z-10 text-center max-w-3xl mx-auto px-4 md:px-6 py-10">
         <h1
-          className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6
+          className="heading-hero font-bold mb-4 md:mb-6
           text-emdad-gold
           md:bg-gradient-to-r md:from-emdad-gold md:via-yellow-400 md:to-emdad-gold
           md:bg-clip-text md:text-transparent
@@ -33,11 +33,11 @@ export function HeroSection() {
           {t('hero.title')}
         </h1>
 
-        <p className="text-base text-gray-600 leading-relaxed mb-2 md:mb-3 animate-fade-in-up arabic-text arabic-balanced-text text-white/80">
+        <p className="body-small leading-relaxed mb-2 md:mb-3 animate-fade-in-up arabic-text arabic-balanced-text text-white/80">
           {t('hero.company')}
         </p>
 
-        <p className="text-lg sm:text-xl md:text-xl text-gray-700 leading-relaxed mb-6 md:mb-8 animate-fade-in-up arabic-text text-white">
+        <p className="body-paragraph leading-relaxed mb-6 md:mb-8 animate-fade-in-up arabic-text text-white">
           {t('hero.subtitle')}
         </p>
 

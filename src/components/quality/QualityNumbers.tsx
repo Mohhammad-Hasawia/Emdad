@@ -86,11 +86,11 @@ export function QualityNumbers() {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-emdad-gold to-yellow-600 rounded-full mb-6 shadow-2xl">
             <Award className="w-8 h-8 text-white" />
           </div>
-          <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-white mb-6 tracking-tight">
+          <h2 className="heading-section font-bold text-white mb-6 tracking-tight">
             {t('quality.numbers.title')}
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-emdad-gold to-yellow-500 mx-auto mb-6" />
-          <p className="text-gray-300 text-base text-gray-600 leading-relaxed max-w-2xl mx-auto arabic-text">
+          <p className="text-gray-300 body-small leading-relaxed max-w-2xl mx-auto arabic-text">
             {t('quality.numbers.description')}
           </p>
         </div>
@@ -114,17 +114,17 @@ export function QualityNumbers() {
                 </div>
 
                 <div className="mb-4">
-                  <span className="text-lg sm:text-xl md:text-2xl font-bold text-white block leading-none">
+                  <span className="heading-card font-bold text-white block leading-none">
                     {isVisible ? displayValue : '0'}
                   </span>
                   {stat.suffix && (
-                    <span className="text-lg sm:text-xl md:text-2xl font-semibold text-emdad-gold ml-1">
+                    <span className="heading-card font-semibold text-emdad-gold ml-1">
                       {stat.suffix}
                     </span>
                   )}
                 </div>
 
-                <p className="text-gray-300 text-base font-medium leading-relaxed group-hover:text-white transition-colors duration-300 arabic-text">
+                <p className="text-gray-300 body-small font-medium leading-relaxed group-hover:text-white transition-colors duration-300 arabic-text">
                   {stat.label}
                 </p>
 

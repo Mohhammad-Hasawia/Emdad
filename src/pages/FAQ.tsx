@@ -40,13 +40,13 @@ export default function FAQ() {
         
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <HelpCircle className="w-16 h-16 text-emdad-gold mx-auto mb-6" />
-          <h1 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold
+          <h1 className="heading-hero font-bold
             bg-gradient-to-r from-emdad-gold via-yellow-400 to-emdad-gold
             bg-clip-text text-transparent
             mb-4 md:mb-6 leading-tight arabic-text">
             {t('faq.hero.title')}
           </h1>
-          <p className="text-lg sm:text-xl md:text-xl text-white animate-fade-in-up leading-relaxed arabic-text" style={{ animationDelay: '0.2s' }}>
+          <p className="body-paragraph text-white animate-fade-in-up leading-relaxed arabic-text" style={{ animationDelay: '0.2s' }}>
             {t('faq.hero.subtitle')}
           </p>
         </div>
@@ -64,7 +64,7 @@ export default function FAQ() {
                       onClick={() => toggleItem(index)}
                       className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200"
                     >
-                      <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-navy pr-4 arabic-text">
+                      <h3 className="heading-card font-bold text-emdad-navy pr-4 arabic-text">
                         {item.question}
                       </h3>
                       {openItems.includes(index) ? (
@@ -77,7 +77,7 @@ export default function FAQ() {
                     {openItems.includes(index) && (
                       <div className="px-6 pb-4">
                         <div className="border-t border-gray-200 pt-4">
-                          <p className="text-lg sm:text-xl md:text-xl text-gray-700 leading-relaxed arabic-text">
+                          <p className="body-paragraph text-gray-700 leading-relaxed arabic-text">
                             {item.answer}
                           </p>
                         </div>
@@ -92,10 +92,10 @@ export default function FAQ() {
             <div className="mt-16 text-center">
               <Card className="bg-emdad-navy text-white p-8">
                 <CardContent className="pt-0">
-                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-gold mb-4 arabic-text">
+                  <h3 className="heading-card font-bold text-emdad-gold mb-4 arabic-text">
                     {t('faq.stillQuestions')}
                   </h3>
-                  <p className="text-lg sm:text-xl md:text-xl mb-6 arabic-text leading-relaxed">
+                  <p className="body-paragraph mb-6 arabic-text leading-relaxed">
                     {t('faq.contactUs')}
                   </p>
                   <button

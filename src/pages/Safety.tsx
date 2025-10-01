@@ -84,13 +84,13 @@ At Emdad Mubasher, safety is not optional—it is the foundation of our reliabil
         
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <Shield className="w-16 h-16 text-emdad-gold mx-auto mb-6" />
-          <h1 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold
+          <h1 className="heading-hero font-bold
             bg-gradient-to-r from-emdad-gold via-yellow-400 to-emdad-gold
             bg-clip-text text-transparent
             mb-4 md:mb-6 leading-tight arabic-text">
             {language === 'ar' ? 'السلامة' : 'Safety'}
           </h1>
-          <p className="text-lg sm:text-xl md:text-xl text-white animate-fade-in-up leading-relaxed" style={{ animationDelay: '0.2s' }}>
+          <p className="body-paragraph text-white animate-fade-in-up leading-relaxed" style={{ animationDelay: '0.2s' }}>
             {language === 'ar' ? 'الأداء والسلامة هما أولويتنا' : 'Performance & Safety Are Our Priorities'}
           </p>
         </div>
@@ -121,7 +121,7 @@ At Emdad Mubasher, safety is not optional—it is the foundation of our reliabil
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-navy mb-6">
+              <h2 className="heading-section font-bold text-emdad-navy mb-6">
                 {language === 'ar' ? 'إجراءات السلامة اليومية' : 'Daily Safety Measures'}
               </h2>
               <div className="w-24 h-1 bg-emdad-gold mx-auto"></div>
@@ -140,10 +140,10 @@ At Emdad Mubasher, safety is not optional—it is the foundation of our reliabil
                         <measure.icon className="w-6 h-6 text-emdad-gold" />
                       </div>
                       <div>
-                        <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-navy mb-2">
+                        <h3 className="heading-card font-bold text-emdad-navy mb-2">
                           {language === 'ar' ? measure.titleAr : measure.titleEn}
                         </h3>
-                        <p className="text-base text-gray-600 leading-relaxed">
+                        <p className="body-small text-gray-600 leading-relaxed">
                           {language === 'ar' ? measure.descriptionAr : measure.descriptionEn}
                         </p>
                       </div>
@@ -162,10 +162,10 @@ At Emdad Mubasher, safety is not optional—it is the foundation of our reliabil
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in-up">
-                <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-navy mb-6">
+                <h2 className="heading-section font-bold text-emdad-navy mb-6">
                   {language === 'ar' ? 'برامج التدريب' : 'Training Programs'}
                 </h2>
-                <p className="text-lg sm:text-xl md:text-xl text-gray-700 leading-relaxed mb-8">
+                <p className="body-paragraph text-gray-700 leading-relaxed mb-8">
                   {language === 'ar'
                     ? 'نستثمر في تدريب أكثر من 200 موظف على أحدث معايير السلامة'
                     : 'We invest in training over 200 employees on the latest safety standards'}
@@ -174,7 +174,7 @@ At Emdad Mubasher, safety is not optional—it is the foundation of our reliabil
                   {trainingPrograms.map((program, i) => (
                     <div key={i} className="flex items-center space-x-3 rtl:space-x-reverse">
                       <CheckCircle className="w-5 h-5 text-emdad-gold flex-shrink-0" />
-                      <span className="text-base text-gray-600 leading-relaxed">
+                      <span className="body-small text-gray-600 leading-relaxed">
                         {language === 'ar' ? program.titleAr : program.titleEn}
                       </span>
                     </div>
@@ -197,7 +197,7 @@ At Emdad Mubasher, safety is not optional—it is the foundation of our reliabil
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto text-center">
-            <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-navy mb-6">
+            <h2 className="heading-section font-bold text-emdad-navy mb-6">
               {language === 'ar' ? 'المعايير' : 'Standards'}
             </h2>
             <div className="w-24 h-1 bg-emdad-gold mx-auto mb-12"></div>
@@ -206,10 +206,10 @@ At Emdad Mubasher, safety is not optional—it is the foundation of our reliabil
               <Card className="p-8 hover:shadow-lg transition-shadow duration-300">
                 <CardContent className="pt-6">
                   <Award className="w-12 h-12 text-emdad-gold mx-auto mb-4" />
-                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-navy mb-4">
+                  <h3 className="heading-card font-bold text-emdad-navy mb-4">
                     {language === 'ar' ? 'المعايير المحلية' : 'National Standards'}
                   </h3>
-                  <p className="text-base text-gray-600 leading-relaxed">
+                  <p className="body-small text-gray-600 leading-relaxed">
                     {language === 'ar'
                       ? 'الامتثال الكامل للوائح السلامة الصادرة عن الجهات التنظيمية في سوريا والدول الإقليمية'
                       : 'Full compliance with safety regulations from Syrian and regional regulatory authorities'}
@@ -219,10 +219,10 @@ At Emdad Mubasher, safety is not optional—it is the foundation of our reliabil
               <Card className="p-8 hover:shadow-lg transition-shadow duration-300">
                 <CardContent className="pt-6">
                   <Award className="w-12 h-12 text-emdad-gold mx-auto mb-4" />
-                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-navy mb-4">
+                  <h3 className="heading-card font-bold text-emdad-navy mb-4">
                     {language === 'ar' ? 'المعايير الدولية' : 'International Standards'}
                   </h3>
-                  <p className="text-base text-gray-600 leading-relaxed">
+                  <p className="body-small text-gray-600 leading-relaxed">
                     {language === 'ar'
                       ? 'الالتزام بالمعايير الدولية لنقل المواد الخطرة مثل إرشادات ADR الأوروبية'
                       : 'Adherence to international standards such as European ADR guidelines for dangerous goods transport'}

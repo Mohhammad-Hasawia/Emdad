@@ -16,7 +16,7 @@ export function QualityProfessionalism() {
     <section className="py-20 bg-emdad-navy text-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-emdad-gold mb-6">
+          <h2 className="heading-page font-bold text-emdad-gold mb-6">
             {t('quality.professionalism.title')}
           </h2>
         </div>
@@ -33,7 +33,7 @@ export function QualityProfessionalism() {
         </div>
 
         <div className="text-center">
-          <p className="text-lg font-medium text-emdad-gold bg-emdad-gold/10 px-6 py-3 rounded-lg inline-block">
+          <p className="body-paragraph font-medium text-emdad-gold bg-emdad-gold/10 px-6 py-3 rounded-lg inline-block">
             {t('quality.professionalism.footer')}
           </p>
         </div>

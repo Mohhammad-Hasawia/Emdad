@@ -54,13 +54,13 @@ At Emdad Mubasher, we understand that transporting petroleum products is a criti
         
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <Activity className="w-16 h-16 text-emdad-gold mx-auto mb-6" />
-          <h1 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold
+          <h1 className="heading-hero font-bold
             bg-gradient-to-r from-emdad-gold via-yellow-400 to-emdad-gold
             bg-clip-text text-transparent
             mb-4 md:mb-6 leading-tight arabic-text">
             {language === 'ar' ? 'الأنشطة' : 'Activities'}
           </h1>
-          <p className="text-lg sm:text-xl md:text-xl text-white animate-fade-in-up leading-relaxed" style={{ animationDelay: '0.2s' }}>
+          <p className="body-paragraph text-white animate-fade-in-up leading-relaxed" style={{ animationDelay: '0.2s' }}>
             {language === 'ar' ? 'التخصص هو مفتاح النجاح' : 'Specialization is the Key to Success'}
           </p>
         </div>
@@ -91,7 +91,7 @@ At Emdad Mubasher, we understand that transporting petroleum products is a criti
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-gold mb-6">
+              <h2 className="heading-section font-bold text-emdad-gold mb-6">
                 {language === 'ar' ? 'من أبرز إنجازاتنا' : 'Key Achievements'}
               </h2>
               <div className="w-24 h-1 bg-emdad-gold mx-auto"></div>
@@ -102,7 +102,7 @@ At Emdad Mubasher, we understand that transporting petroleum products is a criti
                   <div className="flex-shrink-0 w-8 h-8 bg-emdad-gold rounded-full flex items-center justify-center mt-1">
                     <CheckCircle className="w-5 h-5 text-white" />
                   </div>
-                  <p className="text-white text-lg sm:text-xl md:text-xl leading-relaxed">
+                  <p className="text-white body-paragraph leading-relaxed">
                     {language === 'ar' ? achievement.titleAr : achievement.titleEn}
                   </p>
                 </div>

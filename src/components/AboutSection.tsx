@@ -16,13 +16,13 @@ export function AboutSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           {/* العنوان */}
-          <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-gold mb-6 md:mb-8 animate-fade-in-up arabic-text leading-tight">
+          <h2 className="heading-section font-bold text-emdad-gold mb-6 md:mb-8 animate-fade-in-up arabic-text leading-tight">
             {t('about.title')}
           </h2>
 
           {/* الوصف */}
           <p
-            className="text-lg sm:text-xl md:text-xl text-white leading-relaxed mb-6 md:mb-8 animate-fade-in-up arabic-text"
+            className="body-paragraph text-white leading-relaxed mb-6 md:mb-8 animate-fade-in-up arabic-text"
             style={{ animationDelay: '0.2s' }}
           >
             {t('about.description')}

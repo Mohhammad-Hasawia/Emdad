@@ -16,10 +16,10 @@ export function QualityEfficiency() {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
-          <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-navy mb-6">
+          <h2 className="heading-section font-bold text-emdad-navy mb-6">
             {t('quality.efficiency.title')}
           </h2>
-          <p className="text-lg sm:text-xl md:text-xl text-gray-700 leading-relaxed mb-8">
+          <p className="body-paragraph text-gray-700 leading-relaxed mb-8">
             {t('quality.efficiency.subtitle')}
           </p>
         </div>
@@ -30,13 +30,13 @@ export function QualityEfficiency() {
               <div className="flex-shrink-0 w-12 h-12 bg-emdad-gold/10 rounded-lg flex items-center justify-center">
                 <point.icon className="w-6 h-6 text-emdad-gold" />
               </div>
-              <p className="text-base text-gray-600 leading-relaxed flex-1">{point.text}</p>
+              <p className="body-small text-gray-600 leading-relaxed flex-1">{point.text}</p>
             </div>
           ))}
         </div>
 
         <div className="mt-8 text-center">
-          <p className="text-base font-medium text-emdad-gold bg-emdad-gold/10 px-6 py-3 rounded-lg inline-block">
+          <p className="body-small font-medium text-emdad-gold bg-emdad-gold/10 px-6 py-3 rounded-lg inline-block">
             {t('quality.efficiency.footer')}
           </p>
         </div>

@@ -27,10 +27,10 @@ export function QualityStandards() {
 
           {/* Content */}
           <div className="order-1 lg:order-2">
-            <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-navy mb-6">
+            <h2 className="heading-section font-bold text-emdad-navy mb-6">
               {t('quality.quality.title')}
             </h2>
-            <p className="text-lg sm:text-xl md:text-xl text-gray-700 leading-relaxed mb-8">
+            <p className="body-paragraph text-gray-700 leading-relaxed mb-8">
               {t('quality.quality.subtitle')}
             </p>
 
@@ -40,13 +40,13 @@ export function QualityStandards() {
                   <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
                     <point.icon className="w-6 h-6 text-green-600" />
                   </div>
-                  <p className="text-base text-gray-600 leading-relaxed flex-1">{point.text}</p>
+                  <p className="body-small text-gray-600 leading-relaxed flex-1">{point.text}</p>
                 </div>
               ))}
             </div>
 
             <div className="mt-8">
-              <p className="text-base font-medium text-green-600 bg-green-100 px-6 py-3 rounded-lg inline-block">
+              <p className="body-small font-medium text-green-600 bg-green-100 px-6 py-3 rounded-lg inline-block">
                 {t('quality.quality.footer')}
               </p>
             </div>

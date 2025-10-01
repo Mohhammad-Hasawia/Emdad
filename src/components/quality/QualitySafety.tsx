@@ -37,7 +37,7 @@ export function QualitySafety() {
     <section id="safety" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-emdad-navy mb-6">
+          <h2 className="heading-page font-bold text-emdad-navy mb-6">
             {t('quality.safety.title')}
           </h2>
         </div>
@@ -48,7 +48,7 @@ export function QualitySafety() {
               <div className="w-12 h-12 bg-emdad-gold/10 rounded-lg flex items-center justify-center mb-4">
                 <feature.icon className="w-6 h-6 text-emdad-gold" />
               </div>
-              <h3 className="text-xl font-semibold text-emdad-navy mb-3">
+              <h3 className="heading-card font-semibold text-emdad-navy mb-3">
                 {feature.title}
               </h3>
               <p className="text-gray-600 leading-relaxed">

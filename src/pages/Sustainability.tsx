@@ -164,7 +164,7 @@ Our strategic plan incorporates a sustainability perspective with the following 
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="text-lg sm:text-xl md:text-xl text-gray-700 leading-relaxed space-y-6 arabic-text text-justify">
+            <div className="body-paragraph text-gray-700 leading-relaxed space-y-6 arabic-text text-justify">
               {language === 'ar' ? (
                 arabicContent.split('\n\n').map((paragraph, index) => (
                   <p key={index} className="animate-fade-in-up" style={{ animationDelay: `${index * 0.1}s` }}>
@@ -187,7 +187,7 @@ Our strategic plan incorporates a sustainability perspective with the following 
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-emdad-gold text-center mb-12 md:mb-16 leading-tight arabic-text">
+            <h2 className="heading-page font-bold text-emdad-gold text-center mb-12 md:mb-16 leading-tight arabic-text">
               {language === 'ar' ? 'أهدافنا الاستراتيجية' : 'Our Strategic Objectives'}
             </h2>
             
@@ -197,10 +197,10 @@ Our strategic plan incorporates a sustainability perspective with the following 
                   <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
                     <Globe className="w-8 h-8 text-green-600" />
                   </div>
-                  <h3 className="text-lg font-bold text-emdad-navy mb-3 arabic-text">
+                  <h3 className="heading-card font-bold text-emdad-navy mb-3 arabic-text">
                     {language === 'ar' ? 'البيئة' : 'Environment'}
                   </h3>
-                  <p className="text-gray-600 text-base leading-relaxed arabic-text">
+                  <p className="text-gray-600 body-small leading-relaxed arabic-text">
                     {language === 'ar' 
                       ? 'نعمل على نقل الطاقة التي يحتاجها العالم بطريقة مسؤولة تساهم في حماية البيئة.'
                       : 'We are committed to delivering the energy the world needs—responsibly and with a strong focus on protecting the environment.'
@@ -214,10 +214,10 @@ Our strategic plan incorporates a sustainability perspective with the following 
                   <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                     <Heart className="w-8 h-8 text-blue-600" />
                   </div>
-                  <h3 className="text-lg font-bold text-emdad-navy mb-3 arabic-text">
+                  <h3 className="heading-card font-bold text-emdad-navy mb-3 arabic-text">
                     {language === 'ar' ? 'اجتماعي' : 'Social'}
                   </h3>
-                  <p className="text-gray-600 text-base leading-relaxed arabic-text">
+                  <p className="text-gray-600 body-small leading-relaxed arabic-text">
                     {language === 'ar' 
                       ? 'نضع الأشخاص والمجتمعات في قلب كل أعمالنا ومهامنا التشغيلية اليومية.'
                       : 'We place people and communities at the heart of everything we do, every day, across our transport network.'
@@ -231,10 +231,10 @@ Our strategic plan incorporates a sustainability perspective with the following 
                   <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
                     <Scale className="w-8 h-8 text-purple-600" />
                   </div>
-                  <h3 className="text-lg font-bold text-emdad-navy mb-3 arabic-text">
+                  <h3 className="heading-card font-bold text-emdad-navy mb-3 arabic-text">
                     {language === 'ar' ? 'الحوكمة' : 'Governance'}
                   </h3>
-                  <p className="text-gray-600 text-base leading-relaxed arabic-text">
+                  <p className="text-gray-600 body-small leading-relaxed arabic-text">
                     {language === 'ar' 
                       ? 'نزرع ثقافة النزاهة ونلتزم بأداء الأعمال بالطريقة الصحيحة، وفق أعلى معايير المهنية والشفافية.'
                       : 'We foster a culture of integrity and commit to doing things the right way, with professionalism, transparency, and accountability.'
@@ -251,7 +251,7 @@ Our strategic plan incorporates a sustainability perspective with the following 
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-emdad-gold text-center mb-12 md:mb-16 leading-tight arabic-text">
+            <h2 className="heading-page font-bold text-emdad-gold text-center mb-12 md:mb-16 leading-tight arabic-text">
               {language === 'ar' ? 'سياساتنا البيئية' : 'Our Environmental Policies'}
             </h2>
 
@@ -267,7 +267,7 @@ Our strategic plan incorporates a sustainability perspective with the following 
                         <h3 className="text-lg font-bold text-emdad-navy mb-2 arabic-text">
                           {language === 'ar' ? policy.titleAr : policy.titleEn}
                         </h3>
-                        <p className="text-gray-600 text-base leading-relaxed arabic-text">
+                        <p className="text-gray-600 body-small leading-relaxed arabic-text">
                           {language === 'ar' ? policy.descriptionAr : policy.descriptionEn}
                         </p>
                       </div>
@@ -300,7 +300,7 @@ Our strategic plan incorporates a sustainability perspective with the following 
                         <h3 className="text-lg font-bold text-emdad-navy mb-2 arabic-text">
                           {language === 'ar' ? policy.titleAr : policy.titleEn}
                         </h3>
-                        <p className="text-gray-600 text-base leading-relaxed arabic-text">
+                        <p className="text-gray-600 body-small leading-relaxed arabic-text">
                           {language === 'ar' ? policy.descriptionAr : policy.descriptionEn}
                         </p>
                       </div>
@@ -333,7 +333,7 @@ Our strategic plan incorporates a sustainability perspective with the following 
                         <h3 className="text-lg font-bold text-emdad-navy mb-2 arabic-text">
                           {language === 'ar' ? policy.titleAr : policy.titleEn}
                         </h3>
-                        <p className="text-gray-600 text-base leading-relaxed arabic-text">
+                        <p className="text-gray-600 body-small leading-relaxed arabic-text">
                           {language === 'ar' ? policy.descriptionAr : policy.descriptionEn}
                         </p>
                       </div>

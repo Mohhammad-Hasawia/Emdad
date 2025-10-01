@@ -76,13 +76,13 @@ export default function Services() {
         {/* Hero Content */}
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <Truck className="w-16 h-16 text-emdad-gold mx-auto mb-6" />
-          <h1 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold
+          <h1 className="heading-hero font-bold
             bg-gradient-to-r from-emdad-gold via-yellow-400 to-emdad-gold
             bg-clip-text text-transparent
             mb-4 md:mb-6 leading-tight arabic-text">
             {language === 'ar' ? 'خدماتنا' : 'Our Services'}
           </h1>
-          <p className="text-lg sm:text-xl md:text-xl text-white animate-fade-in-up leading-relaxed" style={{ animationDelay: '0.2s' }}>
+          <p className="body-paragraph text-white animate-fade-in-up leading-relaxed" style={{ animationDelay: '0.2s' }}>
             {language === 'ar'
               ? 'حلول نقل متخصصة وآمنة للمنتجات النفطية'
               : 'Specialized and secure transport solutions for petroleum products'}
@@ -102,10 +102,10 @@ export default function Services() {
                     <div className={`inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br ${service.color} rounded-xl mb-6 shadow-lg`}>
                       <service.icon className="w-8 h-8 text-white" />
                     </div>
-                    <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-navy mb-4">
+                    <h3 className="heading-card font-bold text-emdad-navy mb-4">
                       {language === 'ar' ? service.titleAr : service.titleEn}
                     </h3>
-                    <p className="text-base text-gray-600 leading-relaxed">
+                    <p className="body-paragraph text-gray-600 leading-relaxed">
                       {language === 'ar' ? service.descriptionAr : service.descriptionEn}
                     </p>
                   </CardContent>
@@ -121,7 +121,7 @@ export default function Services() {
   <div className="container mx-auto px-4">
     <div className="max-w-6xl mx-auto">
       <div className="text-center mb-16">
-        <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-navy mb-6">
+        <h2 className="heading-section font-bold text-emdad-navy mb-6">
           {language === 'ar' ? 'القدرات التشغيلية' : 'Operational Capabilities'}
         </h2>
         <div className="w-24 h-1 bg-emdad-gold mx-auto"></div>
@@ -137,7 +137,7 @@ export default function Services() {
             <div className="w-20 h-20 bg-emdad-gold/10 rounded-full flex items-center justify-center mx-auto mb-6">
               <capability.icon className="w-10 h-10 text-emdad-gold" />
             </div>
-            <p className="text-lg sm:text-xl md:text-xl text-emdad-navy font-bold">
+            <p className="body-paragraph text-emdad-navy font-bold">
               {language === 'ar' ? capability.titleAr : capability.titleEn}
             </p>
           </div>
@@ -151,10 +151,10 @@ export default function Services() {
       <section className="py-20 bg-emdad-navy">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-emdad-gold mb-6">
+            <h2 className="heading-section font-bold text-emdad-gold mb-6">
               {language === 'ar' ? 'هل تحتاج خدماتنا؟' : 'Need Our Services?'}
             </h2>
-            <p className="text-lg sm:text-xl md:text-xl text-white mb-8">
+            <p className="body-paragraph text-white mb-8">
               {language === 'ar'
                 ? 'تواصل معنا للحصول على عرض سعر مخصص لاحتياجاتك'
                 : 'Contact us for a customized quote tailored to your needs'}
